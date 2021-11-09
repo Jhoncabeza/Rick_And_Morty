@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Creepster&display=swap');
+
+* {
+    box-sizing: border-box;
+}
+
+:root{
+    --primer-color: #6ECB63;
+    --segundo-color: #9A9483;
+    --tercer-color : #7027A0;
+    --cuarto-color : #B1E693;
+    --quinto-color : #FF0000;
+    --sexto-color : #D5D5D5;
+    --septimo-color : #EDEDED;
+}
+
+.image-principal{
+    width: 100%;
+    height: 50vh;
+}
+
+.status,.species{
+    display: inline;
+    
+}
+.location,.origin{
+    color: var(--segundo-color);
+}
+
+.information{
+    padding-top: 1rem;
+}
+.card{
+    background-color: var(--septimo-color);
+    border-radius: 50px;
+}
+
+.image{
+    max-width: 100%;
+    width: 250px;
+    display: flex;
+    cursor: pointer;
+    border-radius: 8px;
+    
+}
+.card{
+    margin: 1px;
+    display: inline-block;
+}
+
+body{
+    background-color: var(--primer-color);
+    font-family: 'Roboto', sans-serif;
+    color: var(--tercer-color );
+    text-align: center;
+    margin: 0 auto;
+    line-height: 0.1rem;
+}
+
+main{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+#green{
+    height: 1rem;
+    width: 1rem;
+    background-color: var(--cuarto-color);
+    border-radius: 50%;
+    display: inline-block;
+}
+
+#red{
+    height: 1rem;
+    width: 1rem;
+    background-color: var(--quinto-color);
+    border-radius: 50%;
+    display: inline-block;
+}
+
+#grey{
+    height: 1rem;
+    width: 1rem;
+    background-color: var(--sexto-color);
+    border-radius: 50%;
+    display: inline-block;
+}

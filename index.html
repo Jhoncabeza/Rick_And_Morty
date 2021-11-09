@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style/style.css">
+    <title>Rick and Morty</title>
+</head>
+
+<body>
+    <img class="image-principal" src="./images/Rick.jpg" alt="">
+    <div class="row" id="items-cards"></div>
+
+    <template id="template-card">
+        <div class="card">
+            <div>
+                <img class="image" src="" alt=""></img>
+            </div>
+
+            <div class="content">
+                <h3 class="name"></h3>
+                <span class="dot"></span>
+                <h5 class="status"></h5>
+                -
+                <h5 class="species"></h5>
+                
+                <div class="information">
+                    Last known location:
+                    <h5 class="location"></h5>
+                    First seen in:
+                    <h5 class="origin"></h5>
+                </div>
+
+            </div>
+        </div>
+    </template>
+
+
+    <script src="./script/promesa.js"></script>
+</body>
+
+</html>
